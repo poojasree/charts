@@ -495,7 +495,7 @@ nodeExporter:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 9100
-    type: NodePort
+    type: ClusterIP
 
 server:
   ## Prometheus server container name
@@ -726,7 +726,7 @@ server:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 80
-    type: NodePort
+    type: ClusterIP
 
   ## Prometheus server pod termination grace period
   ##
