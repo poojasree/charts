@@ -15,7 +15,7 @@ spec:
   type: NodePort
   ports:
     - name: external-broker
-      port: {{ $servicePort }}
+      port: 80
       targetPort: 9090
       nodePort: 31234
       protocol: TCP
