@@ -726,7 +726,7 @@ server:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 80
-    type: LoadBalancer
+    type: NodePort
 
   ## Prometheus server pod termination grace period
   ##
