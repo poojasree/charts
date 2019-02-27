@@ -835,7 +835,7 @@ pushgateway:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 9091
-    type: LoadBalancer
+    type: Nodeport
 
 ## alertmanager ConfigMap entries
 ##
